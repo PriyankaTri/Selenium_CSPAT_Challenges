@@ -38,7 +38,7 @@ public class task6 {
 	@Test
 	public void useProduct1() throws Exception {
 		
-		File src = new File("C:\\Users\\Lenovo\\eclipse-workspace\\Selenium_Challenges\\Assignment_selenium.xlsx");
+		File src = new File("./Assignment_selenium.xlsx");
 		FileInputStream fis = new FileInputStream(src);
 		
 		XSSFWorkbook wb=new XSSFWorkbook(fis);
@@ -73,7 +73,7 @@ public class task6 {
 	
 	@Test
 	public void useProduct2() throws Exception {
-		File src = new File("C:\\Users\\Lenovo\\eclipse-workspace\\Selenium_Challenges\\Assignment_selenium.xlsx");
+		File src = new File("./Assignment_selenium.xlsx");
 		FileInputStream fis = new FileInputStream(src);
 		
 		XSSFWorkbook wb=new XSSFWorkbook(fis);
@@ -108,7 +108,7 @@ public class task6 {
 	
 	@Test
 	public void useProduct3() throws Exception {
-		File src = new File("C:\\Users\\Lenovo\\eclipse-workspace\\Selenium_Challenges\\Assignment_selenium.xlsx");
+		File src = new File("./Assignment_selenium.xlsx");
 		FileInputStream fis = new FileInputStream(src);
 		
 		XSSFWorkbook wb=new XSSFWorkbook(fis);

@@ -1,32 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30037" started-at="2019-10-14T06:18:31Z" finished-at="2019-10-14T06:19:01Z">
+  <suite name="Default suite" duration-ms="16664" started-at="2019-10-14T09:42:19Z" finished-at="2019-10-14T09:42:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30037" started-at="2019-10-14T06:18:31Z" finished-at="2019-10-14T06:19:01Z">
+    <test name="Default test" duration-ms="16664" started-at="2019-10-14T09:42:19Z" finished-at="2019-10-14T09:42:35Z">
       <class name="selenium_assignment.task6">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:selenium_assignment.task6@66a3ffec]" name="openBrowser" is-config="true" duration-ms="7572" started-at="2019-10-14T06:18:31Z" finished-at="2019-10-14T06:18:39Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:selenium_assignment.task6@3e6fa38a]" name="openBrowser" is-config="true" duration-ms="9855" started-at="2019-10-14T09:42:19Z" finished-at="2019-10-14T09:42:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="useProduct1()[pri:0, instance:selenium_assignment.task6@66a3ffec]" name="useProduct1" duration-ms="6674" started-at="2019-10-14T06:18:39Z" finished-at="2019-10-14T06:18:45Z">
+        <test-method status="PASS" signature="useProduct1()[pri:0, instance:selenium_assignment.task6@3e6fa38a]" name="useProduct1" duration-ms="6484" started-at="2019-10-14T09:42:29Z" finished-at="2019-10-14T09:42:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- useProduct1 -->
-        <test-method status="PASS" signature="useProduct2()[pri:0, instance:selenium_assignment.task6@66a3ffec]" name="useProduct2" duration-ms="6810" started-at="2019-10-14T06:18:45Z" finished-at="2019-10-14T06:18:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- useProduct2 -->
-        <test-method status="PASS" signature="useProduct3()[pri:0, instance:selenium_assignment.task6@66a3ffec]" name="useProduct3" duration-ms="6800" started-at="2019-10-14T06:18:52Z" finished-at="2019-10-14T06:18:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- useProduct3 -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:selenium_assignment.task6@66a3ffec]" name="closeBrowser" is-config="true" duration-ms="2136" started-at="2019-10-14T06:18:59Z" finished-at="2019-10-14T06:19:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
       </class> <!-- selenium_assignment.task6 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
