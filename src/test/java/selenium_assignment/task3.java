@@ -1,5 +1,7 @@
 package selenium_assignment;
 
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
 import java.util.Iterator;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
@@ -45,7 +47,13 @@ public class task3 {
 		Actions ac =new Actions(driver);
 		WebElement element=driver.findElement(By.xpath("//a[@href='/clubs/1/Arsenal/overview'][1]"));
 		Thread.sleep(3000);
-		ac.keyDown(Keys.SHIFT).click(element).build().perform();
+		//ac.keyDown(Keys.SHIFT).click(element).build().perform();
+		
+	      ac.contextClick(element).perform();
+	      Robot robo = new Robot();
+	     robo.keyPress(KeyEvent.VK_DOWN);
+	     robo.keyPress(KeyEvent.VK_DOWN);
+	     robo.keyPress(KeyEvent.VK_ENTER);
 		Thread.sleep(3000);
 
 		Set<String> ids = driver.getWindowHandles();
